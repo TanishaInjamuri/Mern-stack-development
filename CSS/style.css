@@ -1,0 +1,17 @@
+#main-title {
+    color: brown;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text-conent{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.highlight {
+    background-color: aqua;
+}

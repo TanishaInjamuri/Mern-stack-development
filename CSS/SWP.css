@@ -1,0 +1,26 @@
+/* ID Selector*/
+#main-title{
+    color: blueviolet;
+    text-align: center;
+}
+/* class selector*/
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(164, 241, 20);
+    
+}
+.highlight
+{
+    color: brown;
+}
+
+/*attribute selecor*/
+[data-priority="high"]{
+    color: rgb(255, 127, 212);
+}
+
+/*descendant selector*/
+.container{
+    color: royalblue;
+
+}

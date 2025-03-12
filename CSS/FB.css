@@ -1,0 +1,42 @@
+/*Flex box */
+.container{
+    background-color: #f0f0f0;
+    height: 100vh;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: row;
+   /* justify-content: center;*/
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.box{
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+}
+
+.box1{
+    background-color: green;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.box2{
+    background-color: rgb(128, 0, 128);
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+.box3{
+    background-color: rgb(0, 2, 128);
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+.box4{
+    background-color: rgba(0, 109, 128, 0.507);
+    align-self: flex-end;
+    flex-grow: 1;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS specificity Demo</title>
+    <link rel="stylesheet" href="spec.css">
+</head>
+<body>
+    <div id="container">
+        <h1 class="main-title">Hello World</h1>
+        <p id="para" class="text" style="color: blueviolet;"> This is a paragraph with the class selector.</p>
+        /* so id and class is more higher than style (style has high priority) */
+        <p> This is a paragraph with element Selector</p>
+        <p class="text">This paragraph has an inside style.</p>
+    </div>
+    
+</body>
+</html>

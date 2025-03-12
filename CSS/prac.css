@@ -1,0 +1,12 @@
+#main-heading{
+    
+    text-align: center;
+}
+
+.styled-text{
+    color:purple
+}
+
+#{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
